@@ -12,7 +12,7 @@
  * @s: Buffer
  *
  * Return: length of printed tree after process
- */
+*/
 static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)
 {
 	char b[6];
@@ -47,7 +47,7 @@ static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)
  * @tree: Pointer to the node to measures the height
  *
  * Return: The height of the tree starting at @node
- */
+*/
 static size_t _height(const binary_tree_t *tree)
 {
 	size_t height_l;
@@ -62,7 +62,7 @@ static size_t _height(const binary_tree_t *tree)
  * binary_tree_print - Prints a binary tree
  *
  * @tree: Pointer to the root node of the tree to print
- */
+*/
 void binary_tree_print(const binary_tree_t *tree)
 {
 	char **s;
